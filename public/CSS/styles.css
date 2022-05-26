@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Raleway&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Open Sans', 'Poppins', 'Raleway', Arial, sans-serif;
+}
+
+.footer-container {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(142, 232, 232);
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    user-select: none;
+}
+
+a:hover {
+    color: rgb(112, 112, 112);
+}
+
+.navbar {
+    font-size: 1.3rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 1.5rem 2rem;
+    font-family: 'Open Sans', 'Roboto', 'Poppins', Arial, sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+
+.navbar .navtitle {
+    font-family: 'Raleway', 'Open Sans', 'Roboto', 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.nav-right {
+    position: fixed;
+    right: 2rem;
+}
+
+.nav-right ul li {
+    list-style: none;
+    display: inline;
+}
+
+.nav-right ul li a {
+    padding: 1.3rem;
+}
+
+.nav-right ul li a {
+    font-size: 1.2rem;
+}
+
+.container {
+    margin: 6rem 3rem 7rem;
+}   
+
+.welcome {
+    font-size: 1.5rem;
+    font-family: 'Poppins', 'Raleway', 'Open Sans', 'Roboto', Arial, sans-serif;
+}
+
+.content {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.title {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', 'Roboto', 'Poppins', 'Raleway', Arial, sans-serif;
+}
+
+.features {
+    font-size: 1.2rem;
+}
+
+.features .content {
+    margin: 0.5rem 3rem;
+}
+
+.features .content li {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.quiz-img {
+    height: 8rem;
+}
+
+.quizImageContainer {
+    text-align: center;
+}
+
+#getStarted {
+    cursor: pointer;
+    background: #05f0ad;
+    background-image: -webkit-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: -moz-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: -ms-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: -o-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: linear-gradient(to bottom, #05f0ad, #0dba4f);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 15px 23px 15px 23px;
+    text-decoration: none;
+    width: 7.8rem;
+    margin: 2rem;
+}
+  
+#getStarted:hover {
+    background: #18f0a1;
+    background-image: -webkit-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: -moz-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: -ms-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: -o-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: linear-gradient(to bottom, #18f0a1, #39cc51);
+    text-decoration: none;
+}
