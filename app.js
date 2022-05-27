@@ -16,6 +16,10 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
+app.get("/quiz", (req, res) => {
+    res.send("Page under development");
+});
+
 app.listen(5500, () => {
     console.log("Server is started at post 5500");
 });

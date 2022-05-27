@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', 'Open Sans', 'Poppins', 'Raleway', Arial, sans-serif;
+    user-select: none;
 }
 
 .footer-container {
@@ -23,7 +24,6 @@ footer {
 a {
     text-decoration: none;
     color: #000;
-    user-select: none;
 }
 
 a:hover {
@@ -133,4 +133,15 @@ a:hover {
     background-image: -o-linear-gradient(top, #18f0a1, #39cc51);
     background-image: linear-gradient(to bottom, #18f0a1, #39cc51);
     text-decoration: none;
+}
+
+.about.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Poppins', 'Raleway', 'Roboto', 'Open Sans', Arial, sans-serif;
+}
+
+.about-container .content {
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
