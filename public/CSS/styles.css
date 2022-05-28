@@ -7,6 +7,10 @@
     user-select: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .footer-container {
     padding: 1rem;
     text-align: center;
@@ -58,11 +62,9 @@ a:hover {
 }
 
 .nav-right ul li a {
-    padding: 1.3rem;
-}
-
-.nav-right ul li a {
     font-size: 1.2rem;
+    padding: 1.65rem;
+    margin: 0;
 }
 
 .container {
@@ -171,3 +173,9 @@ a:hover {
 .error-img {
     height: 10rem;
 }
+
+.run-site-content {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+

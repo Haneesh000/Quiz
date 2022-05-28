@@ -22,7 +22,6 @@ app.get("/quiz", (req, res) => {
 
 app.get("/developer", (req, res) => {
     res.render("developer");
-    alertManager.giveAlert("Welcome");
 });
 
 app.get("*", (req, res) => {
@@ -30,5 +29,5 @@ app.get("*", (req, res) => {
 })
 
 app.listen(5500, () => {
-    console.log("Server is started at post 5500");
+    console.log("Server is started at port 5500");
 });
