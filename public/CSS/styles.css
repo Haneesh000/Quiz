@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans&family=Poppins&family=Raleway&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -144,4 +144,30 @@ a:hover {
 .about-container .content {
     font-size: 1.2rem;
     line-height: 2rem;
+}
+
+.sections ul {
+    margin: 1rem 3rem;
+}
+
+.sections-note {
+    font-size: 1.45rem;
+    font-weight: 500;
+    font-family: 'Mukta', 'Raleway', 'Poppins', 'Open Sans', 'Roboto', Arial, sans-serif;
+    letter-spacing: 0.01rem;
+}
+
+.error-title {
+    font-family: 'Poppins', 'Roboto', 'Open Sans', 'Mukta', 'Raleway', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.error-body {
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.error-img {
+    height: 10rem;
 }

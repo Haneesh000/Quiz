@@ -20,6 +20,15 @@ app.get("/quiz", (req, res) => {
     res.send("Page under development");
 });
 
+app.get("/developer", (req, res) => {
+    res.render("developer");
+    alertManager.giveAlert("Welcome");
+});
+
+app.get("*", (req, res) => {
+    res.render("404");
+})
+
 app.listen(5500, () => {
     console.log("Server is started at post 5500");
 });
