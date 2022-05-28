@@ -179,3 +179,68 @@ a:hover {
     font-size: 1.2rem;
 }
 
+.blank {
+    border: 3px solid rgb(209, 209, 209);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    font-family: 'Poppins', 'Mukta', 'Raleway', 'Open Sans', 'Roboto', Arial, sans-serif;
+    width: 15rem;
+}
+
+.blank:focus {
+    border-color: #000;
+}
+
+.question {
+    margin: 0.8rem 0;
+    font-size: 1.3rem;
+}
+
+.quiz .title {
+    font-size: 1.5rem;
+}
+
+.submit-btn {
+    cursor: pointer;
+    background: #05f0ad;
+    background-image: -webkit-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: -moz-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: -ms-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: -o-linear-gradient(top, #05f0ad, #0dba4f);
+    background-image: linear-gradient(to bottom, #05f0ad, #0dba4f);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.submit-btn:hover {
+    background: #18f0a1;
+    background-image: -webkit-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: -moz-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: -ms-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: -o-linear-gradient(top, #18f0a1, #39cc51);
+    background-image: linear-gradient(to bottom, #18f0a1, #39cc51);
+    text-decoration: none;
+}
+
+.result-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.home-text {
+    font-size: 1.3rem;
+    margin: 1rem;
+}

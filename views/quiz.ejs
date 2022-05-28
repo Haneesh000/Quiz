@@ -1,0 +1,27 @@
+<%- include("partials/header") %>
+<div class="quiz">
+    <div class="title">Today's quiz</div>
+    <div class="content">
+        <form action="/quiz" method="post">
+            <div class="question-one question">
+                1. Rohan <input type="text" name="questiononeblank" class="blank" autocomplete="off"> a good boy.
+            </div>
+            <div class="question-two question">
+                2. He <input type="text" name="questiontwoblank" class="blank" autocomplete="off"> chocolates. (Verb - love)
+            </div>
+            <div class="question-three question">
+                3. He is the <input type="text" name="questionthreeblank" class="blank" autocomplete="off"> boy of the class. (Adjective - good)
+            </div>
+            <div class="question-four question">
+                4. Gymnastics <input type="text" name="questionfourblank" class="blank" autocomplete="off"> Ravi's passion. (Verb - be)
+            </div>
+            <div class="question-four question">
+                5. He <input type="text" name="questionfiveblank" class="blank" autocomplete="off"> today. (Present Continous Tense - come back)
+            </div>
+            <div class="submit-btn-container">
+                <button class="submit-btn" type="submit">Submit and end test</button>
+            </div>
+        </form>
+    </div>
+</div>
+<%- include("partials/footer") %>
